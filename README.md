@@ -175,36 +175,6 @@ Epoch 14/25
 
 Epoch 15/25
 90/90 - 199s - 2s/step - loss: 0.5539 - val_loss: 0.5545
-
-Epoch 16/25
-90/90 - 197s - 2s/step - loss: 0.5365 - val_loss: 0.5601
-
-Epoch 17/25
-90/90 - 200s - 2s/step - loss: 0.5251 - val_loss: 0.5518
-
-Epoch 18/25
-90/90 - 192s - 2s/step - loss: 0.5136 - val_loss: 0.5334
-
-Epoch 19/25
-90/90 - 193s - 2s/step - loss: 0.4930 - val_loss: 0.5283
-
-Epoch 20/25
-90/90 - 192s - 2s/step - loss: 0.4825 - val_loss: 0.5213
-
-Epoch 21/25
-90/90 - 186s - 2s/step - loss: 0.4694 - val_loss: 0.5201
-
-Epoch 22/25
-90/90 - 186s - 2s/step - loss: 0.4606 - val_loss: 0.5104
-
-Epoch 23/25
-90/90 - 186s - 2s/step - loss: 0.4477 - val_loss: 0.5222
-
-Epoch 24/25
-90/90 - 185s - 2s/step - loss: 0.4324 - val_loss: 0.5102
-
-Epoch 25/25
-90/90 - 185s - 2s/step - loss: 0.4235 - val_loss: 0.5025
 ```
 
 GPU Train Process
@@ -253,36 +223,6 @@ Epoch 14/25
 
 Epoch 15/25
 90/90 - 9s - 99ms/step - loss: 0.5068 - val_loss: 0.5397
-
-Epoch 16/25
-90/90 - 9s - 103ms/step - loss: 0.4963 - val_loss: 0.5094
-
-Epoch 17/25
-90/90 - 9s - 100ms/step - loss: 0.4839 - val_loss: 0.5078
-
-Epoch 18/25
-90/90 - 10s - 113ms/step - loss: 0.4737 - val_loss: 0.5498
-
-Epoch 19/25
-90/90 - 9s - 100ms/step - loss: 0.4624 - val_loss: 0.4999
-
-Epoch 20/25
-90/90 - 10s - 113ms/step - loss: 0.4537 - val_loss: 0.4778
-
-Epoch 21/25
-90/90 - 9s - 104ms/step - loss: 0.4322 - val_loss: 0.5137
-
-Epoch 22/25
-90/90 - 10s - 106ms/step - loss: 0.4392 - val_loss: 0.4889
-
-Epoch 23/25
-90/90 - 9s - 103ms/step - loss: 0.4153 - val_loss: 0.4926
-
-Epoch 24/25
-90/90 - 9s - 100ms/step - loss: 0.4052 - val_loss: 0.4773
-
-Epoch 25/25
-90/90 - 9s - 100ms/step - loss: 0.3990 - val_loss: 0.4894
 ```
 ---
 
@@ -366,13 +306,13 @@ This is the step that fixes the "GPU not found" problem for most people:
 cd $(dirname $(python -c 'print(__import__("tensorflow").__file__)'))
 ln -svf ../nvidia/*/lib/*.so* .
 cd -
-ln -sf $VIRTUAL_ENV/lib/python3.12/site-packages/nvidia/cuda_nvcc/bin/ptxas $VIRTUAL_ENV/bin/ptxas
+ln -sf $VIRTUAL_ENV/lib/python3.13/site-packages/nvidia/cuda_nvcc/bin/ptxas $VIRTUAL_ENV/bin/ptxas
 ```
 
 ### 7. Add the library path to `LD_LIBRARY_PATH`
 
 ```bash
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VIRTUAL_ENV/lib/python3.12/site-packages/tensorflow
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$VIRTUAL_ENV/lib/python3.13/site-packages/tensorflow
 ```
 
 ### 8. Make it permanent
