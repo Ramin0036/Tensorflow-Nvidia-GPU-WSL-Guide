@@ -130,109 +130,160 @@ Total Parameters: 7,724,475
 ```
 CPU Train Process
 
+```text
 Epoch 1/25
 90/90 - 491s - 5s/step - loss: 1.6541 - val_loss: 1.0522
+
 Epoch 2/25
 90/90 - 568s - 6s/step - loss: 0.9832 - val_loss: 0.9462
+
 Epoch 3/25
 90/90 - 535s - 6s/step - loss: 0.9029 - val_loss: 0.8887
+
 Epoch 4/25
 90/90 - 242s - 3s/step - loss: 0.8521 - val_loss: 0.8180
+
 Epoch 5/25
 90/90 - 168s - 2s/step - loss: 0.7931 - val_loss: 0.7748
+
 Epoch 6/25
 90/90 - 169s - 2s/step - loss: 0.7424 - val_loss: 0.7363
+
 Epoch 7/25
 90/90 - 179s - 2s/step - loss: 0.7152 - val_loss: 0.7139
+
 Epoch 8/25
 90/90 - 186s - 2s/step - loss: 0.6912 - val_loss: 0.6994
+
 Epoch 9/25
 90/90 - 185s - 2s/step - loss: 0.6613 - val_loss: 0.6544
+
 Epoch 10/25
 90/90 - 185s - 2s/step - loss: 0.6365 - val_loss: 0.6312
+
 Epoch 11/25
 90/90 - 184s - 2s/step - loss: 0.6121 - val_loss: 0.6104
+
 Epoch 12/25
 90/90 - 184s - 2s/step - loss: 0.5939 - val_loss: 0.6071
+
 Epoch 13/25
 90/90 - 193s - 2s/step - loss: 0.5864 - val_loss: 0.5793
+
 Epoch 14/25
 90/90 - 201s - 2s/step - loss: 0.5737 - val_loss: 0.5964
+
 Epoch 15/25
 90/90 - 199s - 2s/step - loss: 0.5539 - val_loss: 0.5545
+
 Epoch 16/25
 90/90 - 197s - 2s/step - loss: 0.5365 - val_loss: 0.5601
+
 Epoch 17/25
 90/90 - 200s - 2s/step - loss: 0.5251 - val_loss: 0.5518
+
 Epoch 18/25
 90/90 - 192s - 2s/step - loss: 0.5136 - val_loss: 0.5334
+
 Epoch 19/25
 90/90 - 193s - 2s/step - loss: 0.4930 - val_loss: 0.5283
+
 Epoch 20/25
 90/90 - 192s - 2s/step - loss: 0.4825 - val_loss: 0.5213
+
 Epoch 21/25
 90/90 - 186s - 2s/step - loss: 0.4694 - val_loss: 0.5201
+
 Epoch 22/25
 90/90 - 186s - 2s/step - loss: 0.4606 - val_loss: 0.5104
+
 Epoch 23/25
 90/90 - 186s - 2s/step - loss: 0.4477 - val_loss: 0.5222
+
 Epoch 24/25
 90/90 - 185s - 2s/step - loss: 0.4324 - val_loss: 0.5102
+
 Epoch 25/25
 90/90 - 185s - 2s/step - loss: 0.4235 - val_loss: 0.5025
+```
 
 GPU Train Process
-
+```text
+Epoch 1/25
 90/90 - 99s - 1s/step - loss: 2.0392 - val_loss: 1.0779
+
 Epoch 2/25
 90/90 - 9s - 99ms/step - loss: 0.9732 - val_loss: 0.8938
+
 Epoch 3/25
 90/90 - 9s - 98ms/step - loss: 0.8790 - val_loss: 0.8433
+
 Epoch 4/25
 90/90 - 9s - 98ms/step - loss: 0.8144 - val_loss: 0.7698
+
 Epoch 5/25
 90/90 - 9s - 98ms/step - loss: 0.7626 - val_loss: 0.7240
+
 Epoch 6/25
 90/90 - 9s - 98ms/step - loss: 0.7158 - val_loss: 0.6753
+
 Epoch 7/25
 90/90 - 9s - 99ms/step - loss: 0.6750 - val_loss: 0.6510
+
 Epoch 8/25
 90/90 - 9s - 100ms/step - loss: 0.6422 - val_loss: 0.6288
+
 Epoch 9/25
 90/90 - 9s - 99ms/step - loss: 0.6225 - val_loss: 0.6063
+
 Epoch 10/25
 90/90 - 9s - 99ms/step - loss: 0.5928 - val_loss: 0.5797
+
 Epoch 11/25
 90/90 - 9s - 102ms/step - loss: 0.5715 - val_loss: 0.5501
+
 Epoch 12/25
 90/90 - 9s - 101ms/step - loss: 0.5600 - val_loss: 0.5531
+
 Epoch 13/25
 90/90 - 9s - 102ms/step - loss: 0.5368 - val_loss: 0.5526
+
 Epoch 14/25
 90/90 - 9s - 101ms/step - loss: 0.5267 - val_loss: 0.5306
+
 Epoch 15/25
 90/90 - 9s - 99ms/step - loss: 0.5068 - val_loss: 0.5397
+
 Epoch 16/25
 90/90 - 9s - 103ms/step - loss: 0.4963 - val_loss: 0.5094
+
 Epoch 17/25
 90/90 - 9s - 100ms/step - loss: 0.4839 - val_loss: 0.5078
+
 Epoch 18/25
 90/90 - 10s - 113ms/step - loss: 0.4737 - val_loss: 0.5498
+
 Epoch 19/25
 90/90 - 9s - 100ms/step - loss: 0.4624 - val_loss: 0.4999
+
 Epoch 20/25
 90/90 - 10s - 113ms/step - loss: 0.4537 - val_loss: 0.4778
+
 Epoch 21/25
 90/90 - 9s - 104ms/step - loss: 0.4322 - val_loss: 0.5137
+
 Epoch 22/25
 90/90 - 10s - 106ms/step - loss: 0.4392 - val_loss: 0.4889
+
 Epoch 23/25
 90/90 - 9s - 103ms/step - loss: 0.4153 - val_loss: 0.4926
+
 Epoch 24/25
 90/90 - 9s - 100ms/step - loss: 0.4052 - val_loss: 0.4773
+
 Epoch 25/25
 90/90 - 9s - 100ms/step - loss: 0.3990 - val_loss: 0.4894
-
+```
 ---
 
 > **Note:** While these instructions should work on most modern NVIDIA GPUs supported by TensorFlow, they have been specifically verified on the configuration listed above.
