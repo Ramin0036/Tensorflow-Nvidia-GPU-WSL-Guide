@@ -1,6 +1,6 @@
 # Tensorflow-Nvidia-GPU-WSL-Guide
 
-# How to Get TensorFlow Working with an NVIDIA GPU on Windows Using WSL2 (2024 Guide)
+# How to Get TensorFlow Working with an NVIDIA GPU on Windows Using WSL (2026 Guide)
 
 Getting TensorFlow to recognize your NVIDIA GPU on Windows via WSL2 *should* be simple based on the official TensorFlow instructions — but for many people, it isn't. After digging through countless unhelpful tutorials and AI-generated suggestions, the real culprit turned out to be simple: **TensorFlow couldn't find the NVIDIA libraries it needed.**
 
