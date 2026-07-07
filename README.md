@@ -4,6 +4,21 @@
 
 Getting TensorFlow to recognize your NVIDIA GPU on Windows via WSL2 *should* be simple based on the official TensorFlow instructions — but for many people, it isn't. After digging through countless unhelpful tutorials and AI-generated suggestions, the real culprit turned out to be simple: **TensorFlow couldn't find the NVIDIA libraries it needed.**
 
+## Tested Configuration
+
+This guide was tested on the following hardware and software configuration:
+
+| Component | Specification |
+|-----------|---------------|
+| CPU | 13th Gen Intel(R) Core(TM) i9-13900H (2.60 GHz) |
+| Memory | 16.0 GB RAM (15.7 GB usable) |
+| NVIDIA GPU | NVIDIA GeForce RTX 5060 Laptop GPU (8 GB VRAM) |
+| Integrated GPU | Intel(R) UHD Graphics (128 MB) |
+| Operating System | Windows 11 Pro 25H2 |
+| WSL Distribution | Ubuntu 24.04 (WSL2) |
+
+> **Note:** While these instructions should work on most modern NVIDIA GPUs supported by TensorFlow, they have been specifically verified on the configuration listed above.
+
 This guide documents the exact, working fix — step by step.
 
 ## Prerequisites
