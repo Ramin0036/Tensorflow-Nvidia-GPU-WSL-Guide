@@ -17,6 +17,9 @@ Getting TensorFlow to recognize your NVIDIA GPU on Windows via WSL2 *should* be 
 | 🪟 Operating System | Windows 11 Pro 25H2 |
 | 🐧 WSL | Ubuntu 24.04 (WSL2) |
 
+<img width="1848" height="410" alt="image" src="https://github.com/user-attachments/assets/d98ab02a-eb68-4806-9f52-12edaf04f403" />
+
+
 > **✅ Verified:** This guide has been tested successfully on the configuration above.
 
 ---
