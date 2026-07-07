@@ -232,6 +232,7 @@ Epoch 24/25
 90/90 - 9s - 100ms/step - loss: 0.4052 - val_loss: 0.4773
 Epoch 25/25
 90/90 - 9s - 100ms/step - loss: 0.3990 - val_loss: 0.4894
+
 ---
 
 > **Note:** While these instructions should work on most modern NVIDIA GPUs supported by TensorFlow, they have been specifically verified on the configuration listed above.
