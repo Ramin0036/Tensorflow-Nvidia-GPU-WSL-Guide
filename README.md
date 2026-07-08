@@ -43,7 +43,7 @@ A U-Net–style convolutional neural network with:
 ### Input
 
 ```text
-Input Shape: (input_w, input_h, input_ch)
+Input Shape: (input_w=256, input_h=256, input_ch=3)
 ```
 
 ### Model Statistics
